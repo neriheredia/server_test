@@ -8,8 +8,7 @@ const {
 } = require("../../controllers/usersControllers");
 
 router
-  .get("/edad/:type", getAllUserController)
-  .get("/genero/:type", getAllUserController)
+  .get("/", getAllUserController)
   .get("/:id", getUserByIdController)
   .post("/", createUserController)
   .put("/:id", updateUserController)
