@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "docker-start": "docker-compose up -d && pnpm dev"
   },
   "keywords": [],
   "author": "",
