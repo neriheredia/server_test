@@ -10,8 +10,8 @@ const dbConnect = async () => {
     .connect(DB_URL)
     .then(() => {
       console.log("🚀 Database connected");
-      // console.log("Creando base de datos...");
-      // seederUser();
+      console.log("Creando base de datos...");
+      seederUser();
     })
     .catch((err) => {
       console.log("Database ERROR!!!", err);
